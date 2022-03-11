@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+body {
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  /* min-height: 100vh; */
+  /* padding-top: 150px; */
+  
+}
+
+#pageBar{
+    text-align: center;
+}
+
+#title-area1{
+	width: 1200px;
+	/* position: relative; */
+	display: flex;
+}
+
+#title-area1>div{
+	width: 1100px;
+}
+
+
+/* --------------버튼 디자인------------- */
+#btn-add{
+cursor: pointer;
+font-size: 16px;
+line-height: 1;
+border-radius: 30px;
+transition-property: background-color;
+transition-duration: .3s;
+border: 1px solid transparent;
+letter-spacing: 2px;
+font-weight: bold;
+padding: 15px 30px 15px 30px;
+margin-bottom: 15px;
+color: white;
+background-color: #a4835f;
+float: right;
+margin: 20px auto;
+}
+
+#btn-add:hover{
+	background-color: black;
+    color: #fff;
+}
+
+/* --------------작은 카테고리------------- */
+#sml-category-area{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.sml-category {
+  display: flex;
+  /* justify-content: center; */
+  line-height: 60px;
+  width: 400px;
+  flex-grow: 1;
+  /* background: green; */
+}
+
+.sml-category > li {
+  font-size: 12px;
+  margin-left: 14px;
+  font-weight: bold;
+}
+
+/* 작은 메뉴 색상 변경(건드리면 골치아픔) */
+.sml-category:hover > span {
+  color: #a4835f;
+}
+
+.sml-category:hover > span .material-icons-outlined.chgcolor {
+  color: #a4835f;
+}
+
+.sml-category:hover > span .material-icons.chgcolor {
+  color: #a4835f;
+}
+
+#bar {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#sml-ctgr-img1 {
+  display: inline-block;
+  vertical-align: -7px;
+  margin-right: 15px;
+  width: 10px;
+  height: 10px;
+}
+
+/* .inner {
+  width: 1200px;
+  margin: 0 auto;
+  
+} */
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 30px;
+  width: 1200px;
+  margin: 0 auto;
+  /* background-color: yellowgreen; */
+}
+
+section div {
+  /* background-color: yellowgreen; */
+}
+
+section #notice {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+
+table {
+  width: 1200px;
+  border-top: 3px solid #444444;
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+th, td {
+  border-bottom: 1px solid #444444;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+#tbl-board{
+    text-align: center;	
+}
+
+td>a:hover{
+	color: #a4835f;
+}
+
+
+section #back-forward {
+    text-align: center;
+    font-size: 22px;
+    /* background-color: #f9f9f9; */
+}
+
+section #back-forward a {
+  color: black;
+}
+
+section #back-forward a:hover {
+  /* border: solid 1px; */
+  /* background-color: #fff; */
+  text-decoration: underline;
+  /* color: #03c75a; */
+}
